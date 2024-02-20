@@ -11,12 +11,12 @@ class GofileUploader {
         },
         {
           opcode: 'uploadFile',
-          blockType: Scratch.BlockType.BOOLEAN,
+          blockType: Scratch.BlockType.STACK,
           text: 'Upload File to Gofile [data] [filename] and get the url',
           arguments: {
             data: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 'Hello, Gofile!',
+              defaultValue: 'Hello!',
             },
             filename: {
               type: Scratch.ArgumentType.STRING,
