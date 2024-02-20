@@ -1,0 +1,6 @@
+videoplaying?=("false")
+then
+do not
+videoplaying?=("true")
+then
+do git log
