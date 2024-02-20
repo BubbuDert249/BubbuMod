@@ -1,0 +1,9 @@
+type=("fullupbar")
+colorHEX=("#ff7b29")
+color=("orange")
+imageDisplay=images/psbt.png/
+text=("BubbuMod") {
+color=("#000000")
+  usage=(".gitignore")
+  }
+end
