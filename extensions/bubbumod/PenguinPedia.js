@@ -58,7 +58,7 @@ class PenguinPedia {
         },
         {
           opcode: 'getarticlesummary',
-          blockType: Scratch.BlockType.REPORTER,
+          blockType: Scratch.BlockType.HAT,
           text: 'summary of [ARTICLE] in [LANGUAGE]',
           arguments: {
             ARTICLE: {
@@ -73,7 +73,7 @@ class PenguinPedia {
         },
         {
           opcode: 'getarticleimage',
-          blockType: Scratch.BlockType.REPORTER,
+          blockType: Scratch.BlockType.CAP,
           text: 'image URL of [ARTICLE] in [LANGUAGE]',
           arguments: {
             ARTICLE: {
